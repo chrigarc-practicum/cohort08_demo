@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.box-area {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: lightblue;
+    gap: 16px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: black 2px solid;
+    border-radius: 25px;
+    background-color: blue;
+}
+
+.box_alter {
+    background-color: darkblue;
+    align-self: flex-end;
+}
